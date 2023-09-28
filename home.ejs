@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow: hidden; /* Prevent scrolling */
+            margin: 0; /* Remove default margin */
+        }
+
+        .carousel-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        img {
+            display: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 2s;
+        }
+
+        @keyframes fade {
+            from { opacity: 0.4; }
+            to { opacity: 1; }
+        }
+
+        .nav-bar {
+            width: 100%;
+            height: 8%;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            background: #0c111b;
+            z-index: 9;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+        }
+
+        /* Center the buttons horizontally within the .nav-bar */
+        .button-button {
+            display: flex;
+            list-style: none;
+        }
+
+        .button {
+            width: 150px;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <img src="https://static.toiimg.com/photo/msid-84412953/84412953.jpg" alt="Mountain Top" class="image fade">
+        <img src="https://thedailyguardian.com/wp-content/uploads/2020/09/IPL-2.jpg" alt="Palm Trees" class="image fade">
+        <img src="https://www.vpnranks.com/wp-content/uploads/2023/09/VR-Watch-Bigg-Boss-Telugu-Season-7-Episode-5-inUSA-on-Hotstar-768x432.jpg" alt="Neon Sign" class="image fade">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6615/1546615-h-b52003248e6e" alt="Neon Sign" class="image fade">
+    </div>
+    
+    <footer>
+        <nav class="nav-bar">
+            <div class="button-button">
+                <a href="signin" class="button">Login</a>
+                <a href="signup" class="button">Signup</a>
+            </div>
+        </nav>
+    </footer>
+
+    <script>
+        let index = 0;
+        displayImages();
+
+        function displayImages() {
+            const images = document.getElementsByClassName("image");
+            for (let i = 0; i < images.length; i++) {
+                images[i].style.display = "none";
+            }
+
+            index++;
+            if (index > images.length) {
+                index = 1;
+            }
+
+            images[index - 1].style.display = "block";
+            setTimeout(displayImages, 2000);
+        }
+    </script>
+</body>
+</html>
