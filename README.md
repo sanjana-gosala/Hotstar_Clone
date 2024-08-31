@@ -16,7 +16,7 @@ Sign-In and Sign-Up: Developed user authentication processes using Firebase for 
 Interactive Dashboard: Created an engaging dashboard experience with interactive elements including sliding panels and hover effects.
 User Experience: Emphasized intuitive design principles to ensure ease of use and a positive user experience.
 ## Setup Instructions
-Clone the Repository: git clone https://github.com/yourusername/hotstar-clone.git
+Clone the Repository: git clone https://github.com//hotstar-clone.git
 Install Dependencies: Run npm install to install necessary packages.
 Configure Firebase: Set up Firebase in your project and configure authentication.
 Run the Application: Use npm start to launch the application locally.
