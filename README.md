@@ -2,7 +2,7 @@
 
 
 # Overview
-    The Hotstar Clone project is a team-driven initiative aimed at replicating the core functionalities and user experience of the popular streaming service, Hotstar. This project features a user-friendly sign-in and sign-up process, along with an interactive dashboard that includes dynamic sliding and hover effects to enhance user engagement and navigation.
+The Hotstar Clone project is a team-driven initiative aimed at replicating the core functionalities and user experience of the popular streaming service, Hotstar. This project features a user-friendly sign-in and sign-up process, along with an interactive dashboard that includes dynamic sliding and hover effects to enhance user engagement and navigation.
 
 ## Key Features
 User Authentication: Implemented secure sign-in and sign-up functionality to manage user access and authentication.
