@@ -1,6 +1,6 @@
 # Hotstar Clone - Team Project
 # Overview
-The Hotstar Clone project is a team-driven initiative aimed at replicating the core functionalities and user experience of the popular streaming service, Hotstar. This project features a user-friendly sign-in and sign-up process, along with an interactive dashboard that includes dynamic sliding and hover effects to enhance user engagement and navigation.
+    The Hotstar Clone project is a team-driven initiative aimed at replicating the core functionalities and user experience of the popular streaming service, Hotstar. This project features a user-friendly sign-in and sign-up process, along with an interactive dashboard that includes dynamic sliding and hover effects to enhance user engagement and navigation.
 
 ## Key Features
 User Authentication: Implemented secure sign-in and sign-up functionality to manage user access and authentication.
@@ -16,8 +16,8 @@ Sign-In and Sign-Up: Developed user authentication processes using Firebase for 
 Interactive Dashboard: Created an engaging dashboard experience with interactive elements including sliding panels and hover effects.
 User Experience: Emphasized intuitive design principles to ensure ease of use and a positive user experience.
 ## Setup Instructions
-Clone the Repository: git clone https://github.com//hotstar-clone.git
-Install Dependencies: Run npm install to install necessary packages.
+Clone the Repository: https://github.com/sanjana-gosala/capstone.git
+Install Dependencies: Run "npm install" to install necessary packages.
 Configure Firebase: Set up Firebase in your project and configure authentication.
-Run the Application: Use npm start to launch the application locally.
+Run the Application: Use "npm start" to launch the application locally.
 
